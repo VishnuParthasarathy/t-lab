@@ -1,3 +1,4 @@
+# Deploying Web Hosts
 data "aws_ami" "web_ami" {
   most_recent = true
   owners      = ["amazon"]
